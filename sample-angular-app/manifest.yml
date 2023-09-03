@@ -1,0 +1,10 @@
+---
+applications:
+- name: sample-angular-app
+  path: dist/sample-angular-app/
+  instances: 1
+  buildpacks:
+    - https://github.com/cloudfoundry/staticfile-buildpack.git
+  memory: 256M
+knvlsdknvhfg
+  random-route: true
